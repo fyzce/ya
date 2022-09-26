@@ -1,0 +1,13 @@
+export enum ModerationPresetReason {
+	GRIEFING = "GRIEFING",
+	NSFW = "NSFW",
+	SCRIBBLING = "SCRIBBLING",
+	HARASSMENT = "HARASSMENT",
+	EXPLOITS = "EXPLOITS",
+	FALSE_VOTEKICKING = "FALSE_VOTEKICKING",
+	PROFANITY = "PROFANITY",
+	HATE_SPEECH = "HATE_SPEECH",
+	OTHER = "OTHER",
+}
+
+export default ModerationPresetReason
